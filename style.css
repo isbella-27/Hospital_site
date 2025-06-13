@@ -173,6 +173,11 @@ ul li .primary-button {
     margin-right: 100px;
 
 }
+.info:hover {
+  transition: ease-out 0.5s;
+  cursor: pointer;
+  transform: scale(1.2);  
+}
 
 .Equipe {
     justify-items: center;
@@ -186,12 +191,12 @@ ul li .primary-button {
 }
 .Equipe p {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 10px;
 }
 
 .image1 img {
-    margin-top: 70px;
+    margin-top: 150px;
     border-radius: 30px;
     width: 360px;
     height: 350px;
@@ -275,9 +280,18 @@ ul li .primary-button {
 
 .im2{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;  
+}
+
+.im1 img:hover{
+  transition: ease-out 0.5s;
+  cursor: pointer;
+  transform: scale(1.2);  
+}
+.im2 img:hover{
+  transition: ease-out 0.5s;
+  cursor: pointer;
+  transform: scale(1.2);  
 }
 
 .Desi1 {
@@ -388,104 +402,250 @@ hr{
     
 }
 
-
 @media screen and (max-width: 1024px) {
-    .Accueil {
-        margin-left: 200px;
-    }
-
-    .info {
-        grid-template-columns: 1fr;
-        padding: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .im1, .im2 {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .Desim1, .Desim2, .Desi1, .Desi2 {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    .coordonnées {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .Localisation {
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .Localisation iframe {
+    .contact input {
         width: 90%;
-        height: 300px;
+        margin-left: 0;
     }
 
     .pub button {
         margin-left: 0;
-        margin: 20px auto;
+        align-self: center;
         display: block;
+        margin: 20px auto;
     }
-}
 
-@media screen and (max-width: 768px) {
-    nav {
+    .coordonnées {
         flex-direction: column;
         align-items: flex-start;
+        margin: 30px 20px;
     }
 
-    .Accueil {
+    .Localisation {
         margin-left: 0;
+        margin-top: 20px;
         width: 100%;
     }
 
-    .Accueil ul {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 20px;
+    .Localisation iframe {
+        width: 100%;
+        height: 300px;
     }
 
-    .Accueil ul li {
-        margin: 10px 0;
+    .public img {
+        height: auto;
+        width: 100%;
     }
 
-    .logo li {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo img {
-        margin: 0;
-    }
-
-    .logo li h1 {
-        font-size: 24px;
+    .Desc-contact {
+        margin: 30px 15px 20px 15px;
         text-align: center;
     }
+}
 
-    .desc h1 {
+@media screen and (max-width: 600px) {
+    .Desc-contact h1 {
+        font-size: 20px;
+    }
+
+    .coordonnées h1 {
+        font-size: 22px;
+    }
+
+    .soutien h1 {
         font-size: 30px;
     }
 
-    .desc p {
+    .pub button {
+        padding: 10px 40px;
         font-size: 16px;
     }
 
-    .image1 img, .image2 img, .image3 img, .image4 img {
-        width: 90%;
-        height: auto;
-    }
-
     .contact input {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 14px;
+        padding: 15px 20px;
     }
+}
+
+/* === DESIGN RESPONSIVE SANS MODIFIER LE HTML === */
+
+@media screen and (max-width: 1200px) {
+  .Accueil {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .info {
+    margin: 0 30px;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .Accueil {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .Accueil ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Accueil ul li {
+    margin: 10px 0;
+  }
+
+  .desc {
+    margin: 40px 20px;
+    margin-top: 180px;
+    text-align: center;
+  }
+
+  .desc h1 {
+    font-size: 35px;
+  }
+
+  .desc p {
+    font-size: 16px;
+  }
+
+  .desc button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 30px;
+    padding: 30px;
+  }
+
+  .im1,
+  .im2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Desim1,
+  .Desim2,
+  .Desi1,
+  .Desi2 {
+    margin-left: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .Equipe p {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .image1 img,
+  .image2 img,
+  .image3 img,
+  .image4 img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo li h1 {
+    font-size: 32px;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .desc h1 {
+    font-size: 28px;
+  }
+
+  .desc p {
+    font-size: 14px;
+  }
+
+  .Equipe h1 {
+    font-size: 26px;
+  }
+
+  .Equipe p {
+    font-size: 16px;
+  }
+
+  .soutien h1 {
+    font-size: 22px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .services h1,
+  .informations h1 {
+    font-size: 24px;
+  }
+
+  .services li,
+  .informations li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .desc h1 {
+    font-size: 24px;
+  }
+
+  .desc p {
+    font-size: 13px;
+  }
+
+  .desc button {
+    font-size: 13px;
+  }
+
+  .Equipe h1 {
+    font-size: 22px;
+  }
+
+  .Equipe p {
+    font-size: 14px;
+  }
+
+  .image1 img,
+  .image2 img,
+  .image3 img,
+  .image4 img {
+    width: 100%;
+  }
+
+  .Desim1 h1,
+  .Desim2 h1,
+  .Desi1 h1,
+  .Desi2 h1 {
+    font-size: 18px;
+  }
+
+  .Desim1 p,
+  .Desim2 p,
+  .Desi1 p,
+  .Desi2 p {
+    font-size: 13px;
+  }
+
+  .info {
+    margin: 10px;
+    padding: 20px;
+  }
 }
 
