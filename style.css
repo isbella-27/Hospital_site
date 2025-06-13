@@ -23,15 +23,15 @@ nav li a{
     align-items: center;
 }
 .logo img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 
 .logo li h1 {
     font-size: 50px;
     margin-top: 15px;
-    font: 1em sans-serif;
+    font: 0.5em sans-serif;
     font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ nav li a{
 .Accueil ul a {
     margin: 1px;
     text-decoration: none;
-    font: 1em sans-serif;
+    font: 0.5em sans-serif;
     font-size: 18px;
     color: #000;
     
@@ -193,8 +193,8 @@ ul li .primary-button {
 .image1 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 360px;
-    height: 350px;
+    width: 340px;
+    height: 330px;
     object-fit: cover;
 
 }
@@ -254,8 +254,8 @@ ul li .primary-button {
 .image2 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 360px;
-    height: 350px;
+    width: 340px;
+    height: 330px;
     object-fit: cover;
 
 }
@@ -267,8 +267,8 @@ ul li .primary-button {
 .image3 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 360px;
-    height: 350px;
+    width: 340px;
+    height: 330px;
     object-fit: cover;
 
 }
@@ -287,8 +287,8 @@ ul li .primary-button {
 .image4 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 360px;
-    height: 350px;
+    width: 340px;
+    height: 330px;
 
 }
 
