@@ -402,6 +402,7 @@ hr{
     
 }
 
+
 @media screen and (max-width: 1024px) {
     .contact input {
         width: 90%;
@@ -437,6 +438,7 @@ hr{
         width: 100%;
     }
 
+    
     .Desc-contact {
         margin: 30px 15px 20px 15px;
         text-align: center;
@@ -467,7 +469,7 @@ hr{
     }
 }
 
-/* === DESIGN RESPONSIVE SANS MODIFIER LE HTML === */
+
 
 @media screen and (max-width: 1200px) {
   .Accueil {
