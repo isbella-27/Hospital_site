@@ -23,15 +23,15 @@ nav li a{
     align-items: center;
 }
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
 }
 
 .logo li h1 {
     font-size: 50px;
     margin-top: 15px;
-    font: 0.5em sans-serif;
+    font: 1em sans-serif;
     font-weight: bold;
 }
 
@@ -45,7 +45,7 @@ nav li a{
 .Accueil ul a {
     margin: 1px;
     text-decoration: none;
-    font: 0.5em sans-serif;
+    font: 1em sans-serif;
     font-size: 18px;
     color: #000;
     
@@ -193,8 +193,8 @@ ul li .primary-button {
 .image1 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 340px;
-    height: 330px;
+    width: 360px;
+    height: 350px;
     object-fit: cover;
 
 }
@@ -254,8 +254,8 @@ ul li .primary-button {
 .image2 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 340px;
-    height: 330px;
+    width: 360px;
+    height: 350px;
     object-fit: cover;
 
 }
@@ -267,8 +267,8 @@ ul li .primary-button {
 .image3 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 340px;
-    height: 330px;
+    width: 360px;
+    height: 350px;
     object-fit: cover;
 
 }
@@ -287,8 +287,8 @@ ul li .primary-button {
 .image4 img {
     margin-top: 70px;
     border-radius: 30px;
-    width: 340px;
-    height: 330px;
+    width: 360px;
+    height: 350px;
 
 }
 
@@ -388,7 +388,7 @@ hr{
     
 }
 
-/*
+
 @media screen and (max-width: 1024px) {
     .Accueil {
         margin-left: 200px;
@@ -486,78 +486,6 @@ hr{
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-@media screen and (max-width: 1024px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .Accueil {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .Accueil ul {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-left: 20px;
-    }
-
-    .Accueil ul li {
-        margin: 10px 0;
-    }
-
-    .logo li {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo img {
-        margin: 0;
-    }
-
-    .logo li h1 {
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .public img {
-        width: 100%;
-        height: auto;
-    }
-
-    .contact input {
-        width: 90%;
-        margin: 10px auto;
-        display: block;
-    }
-
-    .Desc-contact {
-        margin: 30px 20px;
-    }
-
-    .pub button {
-        margin: 20px auto;
-        display: block;
-    }
-
-    .coordonnées {
-        flex-direction: column;
-        margin-left: 0;
-        text-align: center;
-        align-items: center;
-    }
-
-    .Localisation {
-        margin: 20px 0;
-    }
-
-    .Localisation iframe {
-        width: 90%;
-        height: 300px;
-        border-radius: 10px;
     }
 }
 
